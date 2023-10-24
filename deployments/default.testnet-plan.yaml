@@ -1,0 +1,39 @@
+---
+id: 0
+name: Testnet deployment
+network: testnet
+stacks-node: "https://api.testnet.hiro.so"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoind.testnet.stacks.co:18332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: hk-cursor-v2
+            expected-sender: ST2J933XB2CP2JQ1A4FGN8JA968BBG3NK3EPXFQFR
+            cost: 233308
+            path: contracts/hk-cursor-v2.clar
+            anchor-block-only: true
+            clarity-version: 2
+        - contract-publish:
+            contract-name: hk-ecc-v1
+            expected-sender: ST2J933XB2CP2JQ1A4FGN8JA968BBG3NK3EPXFQFR
+            cost: 9862241
+            path: contracts/hk-ecc-v1.clar
+            anchor-block-only: true
+            clarity-version: 2
+        - contract-publish:
+            contract-name: hk-merkle-tree-keccak160-v1
+            expected-sender: ST2J933XB2CP2JQ1A4FGN8JA968BBG3NK3EPXFQFR
+            cost: 9876512
+            path: contracts/hk-merkle-tree-keccak160-v1.clar
+            anchor-block-only: true
+            clarity-version: 2
+        - contract-publish:
+            contract-name: hk-tokens-v1
+            expected-sender: ST2J933XB2CP2JQ1A4FGN8JA968BBG3NK3EPXFQFR
+            cost: 9890784
+            path: contracts/traits/hk-tokens-v1.clar
+            anchor-block-only: true
+            clarity-version: 2
+      epoch: "2.4"

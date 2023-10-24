@@ -1,0 +1,39 @@
+---
+id: 0
+name: Mainnet deployment
+network: mainnet
+stacks-node: "https://api.hiro.so"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoin.blockstack.com:8332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: hk-cursor-v2
+            expected-sender: SP2J933XB2CP2JQ1A4FGN8JA968BBG3NK3EKZ7Q9F
+            cost: 2698067
+            path: contracts/hk-cursor-v2.clar
+            anchor-block-only: true
+            clarity-version: 2
+        - contract-publish:
+            contract-name: hk-ecc-v1
+            expected-sender: SP2J933XB2CP2JQ1A4FGN8JA968BBG3NK3EKZ7Q9F
+            cost: 2694237
+            path: contracts/hk-ecc-v1.clar
+            anchor-block-only: true
+            clarity-version: 2
+        - contract-publish:
+            contract-name: hk-merkle-tree-keccak160-v1
+            expected-sender: SP2J933XB2CP2JQ1A4FGN8JA968BBG3NK3EKZ7Q9F
+            cost: 2694384
+            path: contracts/hk-merkle-tree-keccak160-v1.clar
+            anchor-block-only: true
+            clarity-version: 2
+        - contract-publish:
+            contract-name: hk-tokens-v1
+            expected-sender: SP2J933XB2CP2JQ1A4FGN8JA968BBG3NK3EKZ7Q9F
+            cost: 2694531
+            path: contracts/traits/hk-tokens-v1.clar
+            anchor-block-only: true
+            clarity-version: 2
+      epoch: "2.4"
