@@ -35,3 +35,12 @@
 | ecc          | SP2J933XB2CP2JQ1A4FGN8JA968BBG3NK3EKZ7Q9F.hk-ecc-v1                   |
 | merkle-tree  | SP2J933XB2CP2JQ1A4FGN8JA968BBG3NK3EKZ7Q9F.hk-merkle-tree-keccak160-v1 |
 | token-traits | SP2J933XB2CP2JQ1A4FGN8JA968BBG3NK3EKZ7Q9F.token-traits-v1             |
+
+
+### Use in your project
+
+```console
+$ clarinet requirements add SP2J933XB2CP2JQ1A4FGN8JA968BBG3NK3EKZ7Q9F.hk-cursor-v2
+
+Updated Clarinet.toml with requirement SP2J933XB2CP2JQ1A4FGN8JA968BBG3NK3EKZ7Q9F.hk-cursor-v2
+```
