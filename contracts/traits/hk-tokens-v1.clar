@@ -1,4 +1,4 @@
-(define-trait bridged-sip10-token
+(define-trait sip10-token
   (
     ;; Human readable name of the token
     (get-name () (response (string-ascii 32) uint))
@@ -20,16 +20,10 @@
 
     ;; Transfer from the caller to a new principal
     (transfer (uint principal principal (optional (buff 34))) (response bool uint))
-
-    ;; Mint tokens
-    (mint (uint principal (optional (buff 34))) (response uint uint))
-
-    ;; Burn tokens
-    (burn (uint principal (optional (buff 34))) (response uint uint))
   )
 )
 
-(define-trait bridged-sip09-token
+(define-trait sip09-token
   (
     ;; Last token ID, limited to uint range
     (get-last-token-id () (response uint uint))
@@ -42,11 +36,5 @@
 
     ;; Transfer from the sender to a new principal
     (transfer (uint principal principal) (response bool uint))
-
-    ;; Mint tokens
-    (mint () (response uint uint))
-
-    ;; Burn tokens
-    (burn () (response uint uint))
   )
 )
