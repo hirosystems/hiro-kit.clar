@@ -40,6 +40,7 @@
 ### Use in your project
 
 ```console
-clarinet requirements add SP2J933XB2CP2JQ1A4FGN8JA968BBG3NK3EKZ7Q9F.hk-cursor-v2
+$ clarinet requirements add SP2J933XB2CP2JQ1A4FGN8JA968BBG3NK3EKZ7Q9F.hk-cursor-v2
+
 Updated Clarinet.toml with requirement SP2J933XB2CP2JQ1A4FGN8JA968BBG3NK3EKZ7Q9F.hk-cursor-v2
 ```
