@@ -25,7 +25,7 @@
 | cursor       | ST2J933XB2CP2JQ1A4FGN8JA968BBG3NK3EPXFQFR.hk-cursor-v2                |
 | ecc          | ST2J933XB2CP2JQ1A4FGN8JA968BBG3NK3EPXFQFR.hk-ecc-v1                   |
 | merkle-tree  | ST2J933XB2CP2JQ1A4FGN8JA968BBG3NK3EPXFQFR.hk-merkle-tree-keccak160-v1 |
-| token-traits | ST2J933XB2CP2JQ1A4FGN8JA968BBG3NK3EPXFQFR.token-traits-v1             |
+| token-traits | ST2J933XB2CP2JQ1A4FGN8JA968BBG3NK3EPXFQFR.hk-tokens-v1                |
 
 ### Mainnet
 
@@ -34,7 +34,7 @@
 | cursor       | SP2J933XB2CP2JQ1A4FGN8JA968BBG3NK3EKZ7Q9F.hk-cursor-v2                |
 | ecc          | SP2J933XB2CP2JQ1A4FGN8JA968BBG3NK3EKZ7Q9F.hk-ecc-v1                   |
 | merkle-tree  | SP2J933XB2CP2JQ1A4FGN8JA968BBG3NK3EKZ7Q9F.hk-merkle-tree-keccak160-v1 |
-| token-traits | SP2J933XB2CP2JQ1A4FGN8JA968BBG3NK3EKZ7Q9F.token-traits-v1             |
+| token-traits | SP2J933XB2CP2JQ1A4FGN8JA968BBG3NK3EKZ7Q9F.hk-tokens-v1                |
 
 
 ### Use in your project
